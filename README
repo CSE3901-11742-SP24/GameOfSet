@@ -1,1 +1,42 @@
 Game Of Set
+
+This is a Ruby implementation of the classic card game "Set". The game is played between a player and a computer, where the goal is to identify sets of cards from a grid.
+
+
+How to Play
+
+Prerequisites
+
+    Make sure you have Ruby installed on your system.
+
+Setup
+
+    1. Clone the repository to your local machine.
+    2. Navigate to the directory containing the code files.
+
+Running the Game
+To start the game, run the following command in your terminal:
+
+	ruby main.rb
+
+Gameplay
+
+    1. The game will begin by dealing a set of cards onto the table.
+    2. Each player takes turns to identify sets of three cards that meet specific criteria.
+    3. Players can input the indices of the cards they believe form a set, or request a hint.
+    4. The computer player also attempts to identify sets during its turn.
+    5. The game continues until either the deck is empty or there are no more valid sets on the table.
+    6. After the game ends, the final scores and statistics will be displayed.
+
+Features
+
+    Player interaction: Players can input their choices during their turn.
+    Computer opponent: The computer player attempts to find sets based on a specified probability.
+    Hint system: Players can request hints to help them find sets.
+    Game statistics: After the game, various statistics are displayed, such as the total turns and sets found.
+
+Simulation
+
+Included in the code is a simulation module (SetGameSimulation) that allows running multiple game simulations to gather statistics on the probability of not finding a set with a given number of cards.
+
+To run a simulation, modify the parameters in the SetGameSimulation initialization and execute the run_simulation method.
